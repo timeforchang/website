@@ -1,0 +1,55 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    //border: 1px dashed black;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#menuContainer {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+#menu {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+}
+
+#menu a:visited {
+    color: black;
+}
+
+#menu li {
+    float: left;
+    margin: 0 4.5vw;
+    font-size: 1.25em;
+}
+
+#image {
+    background-image: url(../images/homepage.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    padding: 25vh 100px 0 100px;
+}
+
+#image div {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 35vw;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+#image div p {
+    margin: 0px;
+}
