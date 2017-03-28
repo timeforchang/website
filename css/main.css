@@ -12,7 +12,7 @@ body {
     width: 50%;
     height: 100vh;
     float: left;
-    padding: 40vh 100px 0 100px;
+    padding: 30vh 100px 0 100px;
     font-size: 2em;
 }
 
@@ -35,6 +35,11 @@ body {
     position: relative;
     display: inline-block;
     list-style: none;
+    color: black;
+}
+
+#menu a {
+    color: black;
 }
 
 #menu a:visited {
@@ -67,7 +72,66 @@ body {
 }
 
 #image div p {
+    font-size: 2em;
     margin: 0px;
+}
+
+#welcome p {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#welcome a {
+    color: darkolivegreen;
+    text-align: center;
+    width: 100%;
+    display: block;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+
+#welcome a:hover {
+    opacity: 0.6;
+}
+
+#about h1 {
+    font-size: 1.5em;
+    text-align: left;
+    color: black;
+}
+
+#about h2 {
+    font-size: 1em;
+    text-align: left;
+    color: black;
+}
+
+#experience {
+    text-align: center;
+}
+
+#listContainer {
+    text-align: center;
+    width: 100%;
+    //position: fixed;
+    //background-color: white;
+}
+
+#list {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    color: black;
+}
+
+#list li {
+    float: left;
+    margin: 0 4.5vw;
+    font-size: 1.5em;
+    color: darkolivegreen;
 }
 
 #contact div {
@@ -83,6 +147,11 @@ body {
 #contact a {
     text-decoration: none;
     color: black;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
 }
 
 #contact a:visited {
