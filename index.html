@@ -19,22 +19,18 @@
             </ul>
         </div>
 
-         <div class = "half-section" id = "welcome">
-            <p>
+         <div class = "section" id = "welcome">
+            <h1>
                 Hello. My name is Andrew. <br>
-                I'm a CS major at <br> Georgia Tech. <br> <br> <br>
-            </p>
+                I'm a CS major at Georgia Tech. <br> <br>
+            </h1>
             <a href = "#about">
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </a>
         </div>
 
-        <div class = "half-section" id = "image">
-
-        </div>
-
-        <div class = "section" id = "about">
-            <h1>Here are some things you should know about me</h1> <br>
+        <div class = "half-section" id = "about">
+            <h1>Here are some things you should know about me</h1>
             <h2>I am:</h2>
             <p>
                 a computer scientist <br>
@@ -48,26 +44,52 @@
             </p>
         </div>
 
-        <div class = "section" id = "experience">
+        <div class = "half-section" id = "image">
+
+        </div>
+
+        <div class = "other-section" id = "experience">
             <h1>People I've worked with:</h1>
             <div id = "listContainer" >
                 <ul id = "list">
-                    <li>Wochacha</li>
-                    <li>ABB</li>
-                    <li>Delphi</li>
-                    <li>Robojackets</li>
+                    <li>
+                        <h2>Wochacha</h2>
+                        <p>
+                            Data Management Intern <br>
+                            Product Design Intern <br>
+                            Testing Engineer Intern
+                        </p>
+                    </li>
+                    <li>
+                        <h2>ABB</h2>
+                        <p>
+                            Software Development Intern
+                        </p>
+                    </li>
+                    <li>
+                        <h2>Delphi</h2>
+                        <p>
+                            Electrical Engineering Intern
+                        </p>
+                    </li>
+                    <li>
+                        <h2><br>Robojackets</h2>
+                        <p>
+                            3lb Battlebots Team Member
+                        </p>
+                    </li>
                 </ul>
             </div>
         </div>
 
-        <div class = "section" id = "contact">
+        <div class = "other-section" id = "contact">
             <h1> Contact me! </h1> <br>
             <p> If you need to reach me, there are many ways you can do so. <br>
                 Your options are: <br> <br>
                 <a href = "mailto:chang.andrew.23@gmail.com">
                     Email</a> <br>
                 <a target = "_blank"
-                   href = "www.linkedin.com/in/andrew-chang-b0b189126">
+                   href = "https://www.linkedin.com/in/andrew-chang-b0b189126">
                     Linkedin</a> <br>
                 <a target = "_blank" href = "https://github.com/timeforchang">
                     Github</a> <br> <br>
@@ -78,13 +100,15 @@
                 </a>
             </p>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+        </script>
         <script>
             $(document).ready(function(){
                 // Add smooth scrolling to all links
                 $("a").on('click', function(event) {
 
-                    // Make sure this.hash has a value before overriding default behavior
+                    // Make sure this.hash has a value before overriding
+                    // default behavior
                     if (this.hash !== "") {
                         // Prevent default anchor click behavior
                         event.preventDefault();
@@ -92,13 +116,16 @@
                         // Store hash
                         var hash = this.hash;
 
-                        // Using jQuery's animate() method to add smooth page scroll
-                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        // Using jQuery's animate() method to add smooth page
+                        // scroll
+                        // The optional number (800) specifies the number of
+                        // milliseconds it takes to scroll to the specified area
                         $('html, body').animate({
                             scrollTop: $(hash).offset().top
                         }, 800, function(){
 
-                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            // Add hash (#) to URL when done scrolling
+                            // (default click behavior)
                             window.location.hash = hash;
                         });
                     } // End if
