@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Name Picker</title>
+
+</head>
+<body>
+    <div class = "mainDiv">
+    Hello and welcome to the name picker <br>
+    I haven't had time to make this page look nice so bear with me <br> <br>
+    <textarea id = "databaseID" placeholder = "Enter list ID here..."></textarea><br>
+    Click this button to get a name: <br>
+    <button id = "getBtn" onclick = "getName()">Click Here</button>
+    <h1 id = "returnedName"> </h1>
+    </div>
+
+<script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyA3yx-IwJZFpsHUsuOtR5YqyDUBXwPjUHw",
+        authDomain: "namepicker-e9d96.firebaseapp.com",
+        databaseURL: "https://namepicker-e9d96.firebaseio.com",
+        projectId: "namepicker-e9d96",
+        storageBucket: "",
+        messagingSenderId: "376236955520"
+    };
+    firebase.initializeApp(config);
+</script>
+
+<script src = "https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src = "main.js"></script>
+
+</body>
+</html>
