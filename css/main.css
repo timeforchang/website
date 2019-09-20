@@ -13,16 +13,16 @@ body {
     width: 50%;
     height: 100vh;
     float: left;
-    padding: 5.5vh 50px 0 50px;
-    font-size: 1.5em;
+    padding: 5px 15px 0 15px;
+    font-size: 1.45em;
 }
 
 .other-section {
     width: 100%;
     height: 100vh;
     float: left;
-    padding: 5vh 100px 0 100px;
-    font-size: 2em;
+    padding: 50px 100px 0 100px;
+    font-size: 1.75em;
 }
 
 #image {
@@ -53,6 +53,7 @@ body {
     color: darkolivegreen;
     display: inline-block;
     text-decoration:none;
+    font-weight: bold;
     -webkit-transition: .4s;
     -moz-transition: .4s;
     -ms-transition: .4s;
