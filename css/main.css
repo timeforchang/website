@@ -110,11 +110,12 @@ body {
 
 #contact a:visited {
     text-decoration: none;
-    color: black;
+    color: darkolivegreen;
 }
 
 #contact a:link {
     text-decoration: none;
+    color: darkolivegreen;
 }
 
 #contact a:hover {
